@@ -1,0 +1,68 @@
+<div class="preview-header">
+	<h1 class="preview-title">AtMars</h1>
+	<span class="preview-close"> <i class="fa fa-times"></i> </span> </div>
+<div class="row preview-text">
+	<div class="preview-intro col-sm-9 col-md-9">
+		<blockquote><i>AtMars is a project aimed at implementing fundamental functions of a microblog with new technology, which originated from one of my Undergraduate Research in Domain-Oriented Practice Course. Teaming up with three friends, I led a team to finish this project in THREE weeks.</i></blockquote>
+	</div>
+	<div class="preview-image col-sm-3 col-md-3 hidden-xs"> <img src="projects/atmars/bupt.png" width="60%" /> </div>
+</div>
+<div class="row">
+	<div class="preview-image col-md-12">
+		<div class="flexslider" style="width: 80%">
+			<ul class="slides">
+				<li><img src="projects/atmars/screenshot-1.png" /></li>
+				<li><img src="projects/atmars/screenshot-2.png" /></li>
+				<li><img src="projects/atmars/screenshot-3.png" /></li>
+				<li><img src="projects/atmars/screenshot-4.png" /></li>
+				<li><img src="projects/atmars/screenshot-5.png" /></li>
+				<li><img src="projects/atmars/screenshot-6.png" /></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="row preview-text">
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<h4>Inspiration</h4>
+		<p>This is an open source implementation of micro blog. It can also be named <b>@Mars</b>, which is a symbol of Micro Blog. Mars, as the fourth planet in the Solar System, is the first planet that human begin to study and research except earth. <b>@Mars</b>, means that the user group of the micro blog is focus on the foresight and pioneer of some new technology and design idea.</p>
+		<p>Our solution includes functions as following:</p>
+		<ul>
+			<li>Standard <b>Publish</b> operation of Micro Blog</li>
+			<li><b>Forward</b> and <b>Comment</b> function of Micro Blog</li>
+			<li><b>Followers</b> and <b>Followings</b> function</li>
+			<li><b>Face</b> emotion for Publish message</li>
+			<li><b>Photo</b> uploading for Publish message</li>
+			<li><b>Location</b> information using HTML5 Navigator</li>
+			<li><b>E-mail</b> User Account Validation</li>
+		</ul>
+	</div>
+	<div class="col-md-8 col-sm-12">
+		<h4>Technology Roadmap</h4>
+		<p>In this system, using Struts, Spring and Hibernate Architecture and HTML5 page render technology, we designed proxy server, web server and backend servers. Users can not only use Web Browser to visit our system, but also use mobile devices, such as Android cellphone, to visit AtMars Microblog.</p>
+		<p>For incoming and outgoing Web Data, the proxy server plays a role of load balance for more than two web servers. Each web server deals with specific sessions assigned for itself. Backend servers contains picture server, mail server and database server. Picture server is for the purpose of storing  pictures uploaded by users. Mail server plays a role of sending authentication e-mail to new users. Database server is to store the structural data in relational tables.</p>
+	</div>
+	<div class="col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+		<div class="preview-image"> <img src="projects/atmars/topology.png" width="80%" />
+			<p>The Topology of AtMars</p>
+		</div>
+		<br />
+	</div>
+	<div class="col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+		<div class="preview-image"> <img src="projects/atmars/architecture.png" width="80%" />
+			<p>The Architecture of AtMars</p>
+		</div>
+		<br />
+	</div>
+	<div class="col-md-8 col-sm-12">
+		<h4>Solution Architecture</h4>
+		<p>The architecture of our solution was separated into three parts: <b>UI Layer</b>, <b>SSH Layer</b> and <b>DB Layer</b>.</p>
+		<ul>
+			<li><b>UI Layer</b>, means User Interface Layer, is implemented by Java Server Pages (JSP). Using Hypertext Markup Language (HTML) as the page-render technology, we choose HTML5 as the main page development standard. In addition, we use Cascading Style Sheets version 3 (CSS3) to decorate the pages and JavaScript to control the page functions. Asynchronous JavaScript and XML (AJAX) is used to deal with the communication between client and server.</li>
+			<li><b>SSH Layer</b>, means the Layer of Struts, Spring and Hibernate. It is the integration of Open Source Architecture. Struts is responsible for the MVC Layer. Spring is responsible for the Service Layer. Hibernate is responsible for the ORM Mapping.</li>
+			<li><b>DB Layer</b>, means Database Layer. MySQL is used as the database for this project to store structural data.</li>
+		</ul>
+		<div class="preview-link"> <a href="http://cloudzfy.github.io/atmars" target="_blank">
+			<button type="button" class="preview-btn"><i class="fa fa-github"></i>&nbsp;Github</button>
+			</a> </div>
+	</div>
+</div>
