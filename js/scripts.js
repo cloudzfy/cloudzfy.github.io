@@ -82,27 +82,12 @@ $(function () {
         }, 500, "swing");
     });
 	
-	var isTop = true;
-	var previous = 0;
-	
-	$(window).scroll(function(event) {
-		event.stopPropagation();
+	$(window).bind("scroll", function(event) {
 		event.preventDefault();
-		var current = $(window).scrollTop();
-		if(current < 0) {
-			return;
-		}
-		var target = this.hash;
-		if(isTop == true && previous < current) {
-			isTop = false;
-			$("html, body").stop().animate({
-				"scrollTop": $("#projects").offset().top - 60
-			}, 400, "swing");
-		}
-		else if (current == 0) {
-			isTop = true;
-		}
-		previous = current;
+		$("html, body").stop().animate({
+			"scrollTop": $("#projects").offset().top - 60
+		}, 400, "swing");
+		$(window).unbind("scroll");
 	});
 	
 	function getRandom(n) {
