@@ -85,7 +85,7 @@ $(function () {
     });
 	
 	$(window).bind("scroll", function(event) {
-		if (isTop = true) {
+		if (isTop == true) {
 			event.preventDefault();
 			$("html, body").stop().animate({
 				"scrollTop": $("#projects").offset().top - 60
