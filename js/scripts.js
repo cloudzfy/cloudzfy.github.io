@@ -71,6 +71,8 @@ $(function () {
         $element.find('div').animate({ width: progressBarWidth }, 1200);
 	}
 	
+	var isTop = true;
+	
 	$('.navbar a[href^="#"]').bind('click', function (event) {
     	event.preventDefault();
 		isTop = false;
@@ -83,10 +85,13 @@ $(function () {
     });
 	
 	$(window).bind("scroll", function(event) {
-		event.preventDefault();
-		$("html, body").stop().animate({
-			"scrollTop": $("#projects").offset().top - 60
-		}, 400, "swing");
+		if (isTop = true) {
+			event.preventDefault();
+			$("html, body").stop().animate({
+				"scrollTop": $("#projects").offset().top - 60
+			}, 400, "swing");
+			isTop = false;
+		}
 		$(window).unbind("scroll");
 	});
 	
