@@ -84,7 +84,7 @@ $(function () {
         }, 500, "swing");
     });
 	
-	$(window).bind("scroll", function(event) {
+	function smoothScroll(event) {
 		if (isTop == true) {
 			event.preventDefault();
 			$("html, body").stop().animate({
@@ -92,8 +92,10 @@ $(function () {
 			}, 400, "swing");
 			isTop = false;
 		}
-		$(window).unbind("scroll");
-	});
+		$(window).unbind("scroll", smoothScroll);
+	}
+	
+	$(window).bind("scroll", smoothScroll);
 	
 	function getRandom(n) {
 		return Math.floor(Math.random() * n + 1)
