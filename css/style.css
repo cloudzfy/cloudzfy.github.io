@@ -12,7 +12,7 @@ b {
 	font-weight: 600;
 }
 
-p {
+p, blockquote {
 	text-align: justify;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
