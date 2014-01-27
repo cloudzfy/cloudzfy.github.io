@@ -157,7 +157,7 @@ p, blockquote {
 	text-decoration: none;
 }
 
-.project-item:hover .project-info p {
+.project-item:hover .project-info h4 {
 	opacity: 1;
 }
 
@@ -177,7 +177,7 @@ p, blockquote {
     height: 100%;
 }
 
-.project-info p {
+.project-info h4 {
 	border-top: 1px solid rgba(255, 255, 255, .6);
 	color: #fff;
 	padding: 10px 5px;
@@ -188,7 +188,6 @@ p, blockquote {
 	line-height: 28px;
 	font-weight: 300;
 	letter-spacing: 0.02em;
-	text-align: left;
 }
 
 .project-thumbnail {
@@ -372,7 +371,7 @@ p, blockquote {
 	opacity: 1;
 }
 
-.publication-item:hover .publication-info p {
+.publication-item:hover .publication-info h4 {
 	text-decoration: none;
 	opacity: 1;
 }
@@ -385,16 +384,16 @@ p, blockquote {
 	height: 326px;
 	background: rgba(91, 153, 210, 0.8);
 	padding: 30px 20px 20px 20px;
-	color: #FFF;
-	font-size: 75%;
-	font-weight: 100;
 	transition: all 0.2s ease-in-out;
 	opacity: 0;
 }
 
-.publication-info p {
+.publication-info h4 {
+	color: #FFF;
+	font-size: 75%;
+	font-weight: 300;
+	line-height: 24px;
 	transition: all 0.2s ease-in-out 0.8s;
-	text-align: left;
 }
 
 /* ----------- PUBLICATION PREVIEW ----------- */
