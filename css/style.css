@@ -5,7 +5,6 @@ a:hover {
 body {
 	color: #FFF;
 	font-size: 24px;
-	font-family: 'Open Sans', sans-serif;
 }
 
 b {
@@ -119,7 +118,7 @@ p, blockquote {
 	font-size: 90%;
 	line-height: 28px;
 	font-weight: 100;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.08em;
 	text-align: center;
 	color: #a7b9c9;
 }
@@ -186,7 +185,7 @@ p, blockquote {
 	font-size: 75%;
 	line-height: 28px;
 	font-weight: 300;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.08em;
 }
 
 .project-thumbnail {
@@ -236,13 +235,13 @@ p, blockquote {
 #project-preview .preview-intro {
 	font-weight: 300;
 	font-size: 100%;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.08em;
 }
 
 #project-preview .preview-text {
 	font-weight: 200;
 	font-size: 66%;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.08em;
 }
 
 #project-preview .preview-text h4 {
@@ -294,7 +293,7 @@ p, blockquote {
 #project-preview .preview-image {
 	text-align: center;
 	padding-top:20px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.08em;
 }
 
 #project-preview .preview-image p {
@@ -439,7 +438,7 @@ p, blockquote {
 	font-size: 66%;
 	font-weight: 300;
 	padding: 20px 30px 0px 30px;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.08em;
 }
 
 #publication-preview p {
@@ -450,7 +449,7 @@ p, blockquote {
 	font-size: 66%;
 	font-weight: 300;
 	padding: 15px 30px 30px 30px;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.08em;
 }
 
 #publication-preview .preview-image {
@@ -496,7 +495,7 @@ p, blockquote {
 .award-list {
 	font-size: 66%;
 	font-weight: 300;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.06em;
 	color:#666;
 	line-height: 35px;
 	list-style-type: circle;
@@ -534,7 +533,7 @@ p, blockquote {
 	font-size: 66%;
 	font-weight: 300;
 	text-indent: 2em;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.08em;
 }
 
 .about-download {
