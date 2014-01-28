@@ -12,7 +12,7 @@ $(function () {
 	$("a.project-info").click(function () {
 		
 		$("#project-preview").css("height", "auto");
-		$("#progress-bar").show();
+		$("#progress-bar").find("div").show();
 		progress(100, $("#progress-bar"));
 		
 		var url = "projects/" + $(this).attr("name") + ".html?" + getRandom(10000);
@@ -28,8 +28,8 @@ $(function () {
 					$("body").scrollspy("refresh");
 				});
             });
-			$("#progress-bar").fadeOut("slow");
-			$('.flexslider').flexslider({
+			$("#progress-bar").find("div").fadeOut("slow");
+			$(".flexslider").flexslider({
 				animation: "slide",
 				slideshow: true,
 				slideshowSpeed: 3000,
@@ -44,7 +44,7 @@ $(function () {
 	$("a.publication-info").click(function () {
 		
 		$("#publication-preview").css("height", "auto");
-		$("#progress-bar").show();
+		$("#progress-bar").find("div").show();
 		progress(100, $("#progress-bar"));
 		
 		var url = "publications/" + $(this).attr("name") + ".html?" + getRandom(10000);
@@ -60,18 +60,18 @@ $(function () {
 					$("body").scrollspy("refresh");
 				});
             });
-			$("#progress-bar").fadeOut("slow");
+			$("#progress-bar").find("div").fadeOut("slow");
 		});
 	});
 	
 	function progress(percent, $element) {
         var progressBarWidth = percent * $element.width() / 100;
-        $element.find('div').animate({ width: progressBarWidth }, 1200);
+        $element.find("div").animate({ width: progressBarWidth }, 1200);
 	}
 	
 	var isTop = true;
 	
-	$('.navbar a[href^="#"]').bind('click', function (event) {
+	$(".navbar a[href^='#']").bind("click", function (event) {
     	event.preventDefault();
 		isTop = false;
     	var target = this.hash;
