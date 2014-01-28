@@ -29,6 +29,7 @@ $(function () {
 				});
             });
 			$("#progress-bar").find("div").fadeOut("slow");
+			$("#progress-bar").find("div").width(0);
 			$(".flexslider").flexslider({
 				animation: "slide",
 				slideshow: true,
@@ -61,6 +62,7 @@ $(function () {
 				});
             });
 			$("#progress-bar").find("div").fadeOut("slow");
+			$("#progress-bar").find("div").width(0);
 		});
 	});
 	
