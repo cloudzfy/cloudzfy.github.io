@@ -7,14 +7,6 @@ $(function () {
 		$("body").scrollspy("refresh");
 	});
 	
-	$('.flexslider').flexslider({
-		animation: "slide",
-		slideshow: true,
-		slideshowSpeed: 3000,
-		animationSpeed: 600,
-		pauseOnHover: true
-	});
-	
 	var project_preview = $("#project-preview .container");
 	
 	$("a.project-info").click(function () {
@@ -37,7 +29,13 @@ $(function () {
 				});
             });
 			$("#progress-bar").fadeOut("slow");
-			$(".flexslider").flexslider();
+			$('.flexslider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 3000,
+				animationSpeed: 600,
+				pauseOnHover: true
+			});
 		});
 	});
 	
