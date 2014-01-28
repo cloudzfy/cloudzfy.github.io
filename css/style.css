@@ -227,7 +227,7 @@ p, blockquote {
 	font-size: 150%;
 }
 
-#project-preview .preview-close {
+#project-preview .project-preview-close {
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -424,7 +424,7 @@ p, blockquote {
 	letter-spacing: 0.02em;
 }
 
-#publication-preview .preview-close {
+#publication-preview .publication-preview-close {
 	position: absolute;
 	top: 0px;
 	right: 0px;

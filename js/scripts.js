@@ -22,7 +22,7 @@ $(function () {
 			$("html, body").animate({scrollTop: $("#project-preview").offset().top - 60}, 500, function() {
 				$("body").scrollspy("refresh");
 			});
-			$(".preview-close").click(function() {
+			$(".project-preview-close").click(function() {
                 $("#project-preview").animate({height: "0"}, 800);
 				$("body").animate({scrollTop: $("#projects").offset().top - 60}, 800, function() {
 					$("body").scrollspy("refresh");
@@ -56,7 +56,7 @@ $(function () {
 			$("html, body").animate({scrollTop: $("#publication-preview").offset().top - 60}, 500, function() {
 				$("body").scrollspy("refresh");
 			});
-			$(".preview-close").click(function() {
+			$(".publication-preview-close").click(function() {
                 $("#publication-preview").animate({height: "0"}, 800);
 				$("body").animate({scrollTop: $("#publications").offset().top - 60}, 800, function() {
 					$("body").scrollspy("refresh");
