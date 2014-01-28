@@ -53,6 +53,7 @@ p, blockquote {
 	font-size: 100%;
 	margin: 0 auto;
 	padding: 0 15px 0 15px;
+	text-shadow: 0 1px 1px rgba(54, 54, 54, 0.3);
 }
 
 .navbar-collapse .nav li {
@@ -105,6 +106,7 @@ p, blockquote {
 	bottom: 18%;
 	left: 0px;
 	right: 0px;
+	text-shadow: 0 6px 6px rgba(54, 54, 54, 0.6);
 }
 
 .section-title {
@@ -304,6 +306,7 @@ p, blockquote {
 	font-weight: 100;
 	text-indent: 0;
 	margin: 15px 25px 15px 25px;
+	text-align: center;
 }
 
 #project-preview .preview-link {
