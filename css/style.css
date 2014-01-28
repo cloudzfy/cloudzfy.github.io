@@ -96,7 +96,7 @@ p, blockquote {
 
 #cover {
 	padding-top: 80px;
-	background: rgba(91, 153, 210, 0.6) url('../img/cover.png') no-repeat center bottom;
+	background: rgba(91, 153, 210, 0.6) url('../img/cover.jpg') no-repeat center bottom;
 	background-size: cover;
 	text-align: center;
 }
