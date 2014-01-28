@@ -28,8 +28,9 @@ $(function () {
 					$("body").scrollspy("refresh");
 				});
             });
-			$("#progress-bar").find("div").fadeOut("slow");
-			$("#progress-bar").find("div").width(0);
+			$("#progress-bar").find("div").fadeOut("slow", function() {
+				$("#progress-bar").find("div").width(0);
+			});
 			$(".flexslider").flexslider({
 				animation: "slide",
 				slideshow: true,
@@ -61,8 +62,9 @@ $(function () {
 					$("body").scrollspy("refresh");
 				});
             });
-			$("#progress-bar").find("div").fadeOut("slow");
-			$("#progress-bar").find("div").width(0);
+			$("#progress-bar").find("div").fadeOut("slow", function() {
+				$("#progress-bar").find("div").width(0);
+			});
 		});
 	});
 	
