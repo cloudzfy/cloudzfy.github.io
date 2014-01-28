@@ -587,6 +587,11 @@ p, blockquote {
 	font-size: 160%;
 }
 
+.footer-icon a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .footer-icon i {
 	color: #666;
 }
@@ -595,9 +600,9 @@ p, blockquote {
 	color: #5b99d2;
 }
 
-.about-copyright {
+.footer-copyright {
+	text-align: center;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 }
-
