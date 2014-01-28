@@ -296,13 +296,13 @@ p, blockquote {
 
 #project-preview .preview-image {
 	text-align: center;
-	padding-top:20px;
+	padding-top: 20px;
 	letter-spacing: 0.08em;
 }
 
 #project-preview .preview-image p {
 	font-style: italic;
-	font-size: 80%;
+	font-size: 14px;
 	font-weight: 100;
 	text-indent: 0;
 	margin: 15px 25px 15px 25px;
