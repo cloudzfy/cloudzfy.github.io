@@ -119,6 +119,7 @@ p, blockquote {
 	color: #55a1e3;
 	text-transform: uppercase;
 	text-align: center;
+	text-shadow: 0 1px 1px rgba(54, 54, 54, 0.6);
 }
 
 .section-subtitle {
@@ -128,6 +129,7 @@ p, blockquote {
 	letter-spacing: 0.08em;
 	text-align: center;
 	color: #a7b9c9;
+	text-shadow: 0 1px 1px rgba(153, 153, 153, 0.1);
 }
 
 /* ----------- PROJECTS ----------- */
@@ -150,7 +152,6 @@ p, blockquote {
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
-	transition: all 0.2s ease-in-out;
 }
 
 .project-item:hover {
@@ -178,7 +179,7 @@ p, blockquote {
     display: block;
     overflow: hidden;
     opacity: 0;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     height: 100%;
 }
 
@@ -188,7 +189,7 @@ p, blockquote {
 	padding: 10px 5px;
 	margin: 0 20px;
 	opacity: 0;
-	transition: all .2s ease-in-out 0.1s;
+	transition: all 0.5s ease-in-out 0.2s;
 	font-size: 75%;
 	line-height: 28px;
 	font-weight: 300;
@@ -390,16 +391,18 @@ p, blockquote {
 	height: 326px;
 	background: rgba(91, 153, 210, 0.8);
 	padding: 30px 20px 20px 20px;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	opacity: 0;
 }
 
 .publication-info h4 {
+	opacity: 0;
 	color: #FFF;
 	font-size: 75%;
 	font-weight: 300;
 	line-height: 24px;
-	transition: all 0.2s ease-in-out 0.8s;
+	transition: all 0.5s ease-in-out 0.2s;
+	text-shadow: 0 1px 1px rgba(54, 54, 54, 0.8);
 }
 
 /* ----------- PUBLICATION PREVIEW ----------- */
@@ -439,7 +442,7 @@ p, blockquote {
 
 #publication-preview .preview-author {
 	font-size: 70%;
-	font-weight: 100;
+	font-weight: 200;
 	padding: 0px 40px 0px 40px;
 }
 
