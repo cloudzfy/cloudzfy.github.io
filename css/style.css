@@ -57,7 +57,7 @@ p, blockquote {
 }
 
 .navbar-collapse .nav li {
-	width: 100px;
+	width: 105px;
 	text-align: center;
 }
 
@@ -67,11 +67,14 @@ p, blockquote {
 	font-weight: 400;
 	padding: 0 5px 0 5px;
 	color: #999;
+	transition: all linear 0.2s;
+	border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .nav li a:hover {
 	color: #428bca;
 	background-color: rgba(66, 139, 202, 0.1);
+	border: 1px solid #428bca;
 }
 
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
