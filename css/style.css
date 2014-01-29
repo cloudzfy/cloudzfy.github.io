@@ -11,15 +11,6 @@ b {
 	font-weight: 600;
 }
 
-p, blockquote {
-	text-align: justify;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	-o-hyphens: auto;
-	hyphens: auto;
-}
-
 /* ----------- HEADER ----------- */
 
 .navbar {
