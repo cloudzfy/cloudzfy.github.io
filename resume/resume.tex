@@ -1,134 +1,113 @@
-% LaTeX resume using res.cls
-\documentclass{res}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font  
-\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
-\setlength{\textheight}{9.8in}  % increase textheight to fit more on a page
-\setlength{\headsep}{0.2in}     % space between header and text
-\setlength{\headheight}{12pt}   % make room for header
-\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
-\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
-\lhead{\hspace*{-\sectionwidth}Youzheng Chen} % force lhead all the way left
-\rhead{Page \thepage}  % put page number at right
-\cfoot{}  % the footer is empty
-\pagestyle{fancy} % set pagestyle for the document
-
-\begin{document} 
+\documentclass[margin]{res}
+\usepackage{enumitem}
+%\textwidth=5.2in
+\begin{document}
 
 \thispagestyle{empty}
-\name{YOUZHENG CHEN\\[12pt]}     % the \\[12pt] adds a blank
-				        % line after name      
+\name{Youzheng Chen\\[12pt]}
 
-\address{
-University of Southern California \\
-Los Angeles, CA 90089 \\
-United States
-}
-\address{
-URL: http://cloudzfy.github.io
-}
-                                  
 \begin{resume}
-\vspace{0.1in}
 \section{EDUCATION}
-\vspace{0.1in}
-{\bf University of Southern California, United States}\hfill {\em Present} \\[3pt]
-Master of Science in Computer Science
-
-{\bf Beijing University of Posts and Telecommunications, China}\hfill {\em June 2013} \\[3pt]
-Bachelor of Engineering in Software Engineering \\[3pt]
-GPA: 3.60/4.00(overall) 3.82/4.00(major)
-
+{\bf University of Southern California}\hfill Los Angeles, CA \\
+Master of Science in Computer Science \hfill {\em Aug. 2014 - Present} \\[8pt]
+{\bf Beijing University of Posts and Telecommunications}\hfill Beijing, China \\
+Bachelor of Engineering in Software Engineering \hfill {\em Sept. 2009 - Jun. 2013}
  
-\section{PROJECTS AND RESEARCH EXPERIENCES}
-\vspace{-0.05in}
-\begin{tabbing}
-\hspace{4.7in}\= \kill
-{\bf JAIN SLEE Access Control System \& Call Center}     \>{\em Nov. 2012 - Present} \\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Project Website: http://cloudzfy.github.io/gryffin-as
-\item[] Designed IMS Media Resource Controller for Interactive Voice Response (IVR) function
-\item[] Designed and implemented MRCPv2 Resource Adaptor of JAIN SLEE Framework
-\item[] Integrated JVoiceXML to enhance extensibility of Media Resource Controller
+\section{WORK EXPERIENCE}
+{\bf University of Southern California} \hfill  Los Angeles, CA \\[2pt]
+{\em Research Assistant} (Directed by Prof. Michael Arbib) \hfill {\em June. 2015 - Present} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Analyzed the effect of different basal ganglia pathways in brain function
+\item Designed and Implemented associative learning model through time
 \end{itemize}
 
-\begin{tabbing}
-\hspace{3.4in}\= \hspace{1.3in}\= \kill
-{\bf AtMars Microblog Open Source Project} \>Team Leader \> {\em July 2012 - Aug. 2012}\\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Project Website: http://cloudzfy.github.io/atmars
-\item[] Designed the architecture of AtMars Microblog in Struts + Spring + Hibernate (SSH) Framework
-\item[] Designed user interface of AtMars in HTML5, Javascript and CSS3
+{\bf Beijing University of Posts and Telecommunications} \hfill Beijing, China \\[2pt]
+{\em Research Assistant} (Directed by Prof. Baozhong Cheng) \hfill {\em Nov. 2010 - June 2014} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Lead and Implemented Doubango-based IMS UE for teaching cases
+\item Designed access control system and call center based on JAIN SLEE architecture
 \end{itemize}
 
-\begin{tabbing}
-\hspace{3.4in}\= \hspace{1.3in}\= \kill
-{\bf ECHelper Mobile Health System} \>Team Leader \> {\em Jan. 2012 - Apr. 2012}\\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Project Website: http://cloudzfy.github.io/echelper
-\item[] Designed the architecture of ECHelper with multiple Microsoft Technology (Windows Azure, Windows 8, Windows Phone 7, etc)
-\item[] Designed hareware driver for ECG sensor to record patient data
+\section{RESEARCH EXPERIENCE}
+{\bf University of Southern California} \hfill Los Angeles, CA \\[8pt]
+{\em MNS-based Neuron Coding on Action and Inaction} \hfill {\em June 2015 - Present} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Analyzed the influence of hyperdirect and indirect pathway on Inaction case
+\item Designed reinforcement learning rules on associative learning through time
+\item Designed basal ganglia model based on Nengo Library
 \end{itemize}
 
-\begin{tabbing}
-\hspace{3.4in}\= \hspace{1.3in}\= \kill
-{\bf Kinect Sports Director} \>Team Leader \> {\em Sept. 2011 - Jan. 2012}\\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Designed WPF Application to recognize body skeleton by Microsoft Kinect SDK
-\item[] Designed algorithm for measuring the differences between userÕs actions and standard actions
+{\em Deep Learning Model on Rainfall Estimation} \hfill {\em Oct. 2015 - Dec. 2015} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Designed deep learning model based on Marshall-Palmer equation
+\item Implemented layers and nets in neural network based on Caffe Library
+\item Analyzed model performance and predicted rainfall value in Kaggle competition
 \end{itemize}
 
-\begin{tabbing}
-\hspace{3.4in}\= \hspace{1.3in}\= \kill
-{\bf Doubango-based IMS UE for Teaching Cases} \>Team Leader \> {\em Nov. 2011 - May 2012}\\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Project Website: http://cloudzfy.github.io/myboghe
-\item[] Designed and implemented the IMS client and IMS server for Private Chat, Public Chat and Presence Service
-\item[] Designed the teaching experiments for three weeks on Doubango-based IMS UE in a simplified model
+{\em Reinforcement-Learning-based Basal Ganglia Model} \hfill {\em Feb. 2015 - May 2015} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Integrated and analyzed the role of the indirect pathway of the basal ganglia
+\item Analyzed reinforcement learning effect under dopamine depletion
+\item Applied reinforcement learning rule on the weights of cortico-striatal connections
+\item Documented relative publications in the Brain Operational Database System
 \end{itemize}
 
-\begin{tabbing}
-\hspace{3.4in}\= \hspace{1.3in}\= \kill
-{\bf SIP Communication Simulation in QualNet} \>Team Leader \> {\em Oct. 2010 - June 2011}\\
-\end{tabbing}\vspace{-20pt}
-\begin{itemize}
-\item[] Used simulation platform QualNet produced by SCALABLE Network Technologies
-\item[] Simulated Proxy routed SIP-based VoIP in different domains
-\item[] Analyzed and designed QualNet components for SIP simplified model
+{\em SL Real-Time Simulation on NAO Robot} \hfill {\em Apr. 2015 - May 2015} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Implemented inverse kinematics algorithm on the control of the COG
+\item Implemented direct kinematics algorithm on the control of robot leg action
+\item Analyzed feedback system using PID control
 \end{itemize}
 
+{\em Analysis of GPU Virtualization on Cloud Computing} \hfill {\em Oct. 2014 - Nov. 2014} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Analyzed virtualization approaches in modern operating systems
+\item Compared the design of GPU virtualization among VMWare, Xen, etc.
+\item Evaluated the potential research direction on Gaming as a Service (GaaS)
+\end{itemize}
+
+{\bf Beijing University of Posts and Telecommunications} \hfill Beijing, China \\[8pt]
+{\em JAIN SLEE Access Control System \& Call Center} \hfill {\em Nov. 2012 - June 2014} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=0pt]
+\item Developed IMS Media Resource Controller for Interactive Voice Response (IVR)
+\item Analyzed and Remodeled MRCPv2 Resource Adaptor of JAIN SLEE
+\item Assembled JVoiceXML and enhanced extensibility of Media Resource Controller
+\end{itemize}
+
+{\em ECHelper Mobile Health System} \hfill {\em Jan. 2012 - Apr. 2012} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Devised the architecture with Windows Azure, Windows 8, etc
+\item Programmed hardware driver for ECG sensor to record patient data
+\end{itemize}
+
+{\em Doubango-based IMS UE for Teaching Cases} \hfill {\em Nov. 2011 - May 2012} \\[-8pt]
+\begin{itemize}[topsep=-1pt,parsep=1pt]
+\item Simplified IMS client and IMS server for Chat Room and Presence Service
+\item Developed three-week IMS UE teaching experiments
+\end{itemize}
 
 \section{PUBLICATIONS}
-\vspace{0.1in}
 ``Research and Implementation of an IMS-based AS/MRFC Model for IVR Services", {\bf Youzheng Chen}, Baozhong Cheng, and Xiaoyan Zhang, {\em IT Convergence and Security (ICITCS), 2014 International Conference on}, 2014, pp. 1-5
 
 ``Development of Doubango-based IMS UE for Teaching Experiments", {\bf Youzheng Chen}, Baozhong Cheng, Xiaoyan Zhang, Yi Sun, Jin Xie, and Kun Li, {\em IT Convergence and Security (ICITCS), 2013 International Conference on}, 2013, pp. 319-322
 
-``Two exploring experiments on IMS service based on SIP AS", Kun Li, Baozhong Cheng, Xiaoyan Zhang, {\bf Youzheng Chen}, {\em International Journal of Multimedia and Ubiquitous Engineering}, 2014, pp. 375-386
+``Analysis and Design of IMS Services on IMS AS for Teaching Experiments", Kun Li, Baozhong Cheng, Xiaoyan Zhang, {\bf Youzheng Chen}, Yi Sun, and Jin Xie, {\em Information Technology and Electronic Commerce (ICITEC), 2013 1st International Conference on}, 2013, pp. 72-75
 
- 
- 
-\section{HONORS AND AWARDS}
+\section{AWARDS}
 \vspace{-0.05in}
 \begin{tabbing}
-\hspace{5.4in}\= \kill
-Scholarship in the People's Daily Online 2012 (Top 1.01\%) \>{\em Oct. 2012} \\[7pt]
-Third Prize in the Software Design Challenge of Microsoft Imagine Cup 2012 (Top 0.13\%) \\ \> {\em Apr. 2012} \\[7pt]
-Silver Award of the Sixth ACM-ICPC School Contest of BUPT (Top 2.47\%) \> {\em Mar. 2012} \\[7pt]
+\hspace{4.7in}\= \kill
+Scholarship in the People's Daily Online 2012  \>{\em Oct. 2012} \\[7pt]
+Third Prize in the Software Design Challenge of Microsoft Imagine Cup 2012 \\ \> {\em Apr. 2012} \\[7pt]
+Silver Award of the Sixth ACM-ICPC School Contest of BUPT \> {\em Mar. 2012} \\[7pt]
 Honorable Mentions in the 2012 Mathematical Contest in Modeling \> {\em Feb. 2012} \\[7pt]
-Second Prize in the 2011 China-Pub Cup Global Mathematical Modeling Certificate Contest \\ \> {\em May 2011} \\[7pt]
-Second-class Scholarship, Beijing University of Posts and Telecommunications \> {\em Nov. 2011} \\[7pt]
-Third-class Scholarship, Beijing University of Posts and Telecommunications \> {\em Nov. 2010} \\[7pt]
+Second-class Scholarship, Beijing University of Posts and Telecomm. \> {\em Nov. 2011} \\[7pt]
+Third-class Scholarship, Beijing University of Posts and Telecomm. \> {\em Nov. 2010} \\[7pt]
 Second Prize in the Chinese Mathematical Olympiad in Senior \> {\em Oct. 2008} \\[7pt]
-First prize in the National Mathematical Contest for Junior High School Students (Top 2.81\%) \\ \> {\em Apr. 2006}
+First prize in the National Mathematical Contest for Junior High School Students \\ \> {\em Apr. 2006}
 \end{tabbing}
 
-\section{PROGRAMMING SKILLS}
+\section{SKILLS}
 C, C++, C\#, Java, Matlab, \LaTeX, Unix Shell Script
 
 \end{resume}
