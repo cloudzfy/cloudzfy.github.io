@@ -6,7 +6,7 @@
 * **Beijing University of Posts and Telecommunications**, *Beijing, China* [[html](https://cloudzfy.github.io/bupt/)]
   * Bachelor of Engineering in Software Engineering
 
-### Working Experience
+### Experience
 
 * **Research Assistant**, *Directed by Prof. Michael Arbib*
   * Analyzed the effect of different basal ganglia pathways in brain function
@@ -20,7 +20,7 @@
   * Lead and Implemented Doubango-based IMS UE for teaching cases
   * Designed access control system and call center based on JAIN SLEE architecture
 
-### Research Experience
+### Research & Projects
 
 * **MNS-based Neuron Coding on Action and Inaction**
   * Analyzed the influence of hyperdirect and indirect pathway on Inaction case
