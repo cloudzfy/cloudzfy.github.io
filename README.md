@@ -1,5 +1,3 @@
-## Youzheng Chen
-
 ### Education
 
 * **University of Southern California**, *Los Angeles, CA*
@@ -40,7 +38,7 @@
   * Applied reinforcement learning rule on the weights of cortico-striatal connections
   * Documented relative publications in the Brain Operational Database System (BODB)
   
-* **SL Real-Time Simulation on NAO Robot**, *teamed with Fangxiang Wang, Meng Sun*
+* **SL Real-Time Simulation on NAO Robot**, *teamed with Fangxiang Wang, Meng Sun* [[video](https://vimeo.com/127700707)]
   * Implemented inverse kinematics algorithm on the control of the center of gravity (COG).
   * Implemented direct kinematics algorithm on the control of robot leg action.
   * Analyzed feedback system using PID control and processed with Butterworth filter.
