@@ -1,0 +1,36 @@
+<div class="preview-header">
+	<h1 class="preview-title">KiDirector</h1>
+	<span class="project-preview-close"> <i class="fa fa-times"></i> </span> </div>
+<div class="row preview-text">
+	<div class="preview-intro col-sm-9 col-md-9">
+		<blockquote><i>Funded by Microsoft Student Technology Club of Hongfu Campus, KiDirector is a project developed by two friends and me to participate in Microsoft Elite Challenge, mainly for indoor sports instructing and sharing.</i></blockquote>
+	</div>
+	<div class="preview-image col-sm-3 col-md-3 hidden-xs"> <img src="projects/kidirector/mstc.png" width="90%" /> </div>
+</div>
+<div class="preview-text row">
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<h4>Inspiration</h4>
+		<p>As the pace of life increases with fierce competition, more and more people have to work hard without exercise for a while. Even though time permits, the air pollution prevents people from doing outdoor exercise. </p>
+		<p>In the meantime, without efficient instruction, the office workers may do harm to themselves when exercising. Therefore, teaching people how to do the indoor sports is an important job for our society.</p>
+		<p>For the purpose of maintaining and carrying forward the traditional culture, Tai-chi Chuan and Kong Fu, we designed KiDirector for teaching and sharing many kinds of exercise.</p>
+		<p>KiDirector can efficiently monitor the action of people in front of Microsoft Kinect and help them adjust the action to meet the requirement of specific exercise. If exercise coaches want more people to do the sports they invented, the sports sharing will also be a good choice.</p>
+		<h4>Technology Roadmap</h4>
+		<p>In this project, we avail ourselves in Kinect for Windows SDK to develop the application. As the architecture shown to the right, the Natural User Interface (NUI) is introduced for obtaining the gesture of player. Microsoft Speech is also integrated for following the instruction of player by speech recognition.</p>
+		<p>For the purpose of sharing actions on the Internet, we integrate Windows Azure to deploy our backend server. So that people who access our server can download the actions or gestures they like for imitating, and upload the actions or gestures they create for sharing.</p>
+	</div>
+	<div class="preview-image col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3"> <img src="projects/kidirector/architecture.png" width="60%" />
+		</li>
+		<p>The Architecture of Our Solution.</p>
+	</div>
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<p>In terms of the algorithm we use for detecting and evaluating the player, here is the formula:</p>
+		<p style="text-align: center"><img src="projects/kidirector/formula-1.png" height="18" /></p>
+		<p>assuming <img src="projects/kidirector/p-1.png" height="16" />, <img src="projects/kidirector/p-2.png" height="16" /> and <img src="projects/kidirector/p-3.png" height="16" /> are the coordinate point of the continuous joint of player gesture, and <img src="projects/kidirector/s-1.png" height="16" />, <img src="projects/kidirector/s-2.png" height="16" /> and <img src="projects/kidirector/s-3.png" height="16" /> are the coordinate point of the continuous joint of the standard gesture. In addition, no matter which position the player stay, the relative angle is fixed.</p>
+		<p>When it comes to the total evaluation of the player performance, we use the formula shown below:</p>
+		<p style="text-align: center"><img src="projects/kidirector/formula-2.png" height="28" /></p>
+		<p>Here, <img src="projects/kidirector/a-i.png" height="16" /> is a coefficient related to corresponding angle of joint, since different angles make different influence on the overall gesture.</p>
+		<h4>Prospect</h4>
+		<p>Nowadays, in order to learn the standard action, many people have to spend lots of money on training courses and gyms. However, this project primarily opens a direction that people can learn and share their actions at home. KiDirector is low cost for everyone because only  Microsoft Kinect are mandatory. In the meantime, different people can conveniently choose different actions as they wish. In the near future, more and more office workers will be willing to participate in this kind of exercise, since spending limited time at home can also harvest a healthy body! </p>
+	</div>
+	<div class="col-sm-12"> <img src="projects/kidirector/kinect.png" width="100%" /> </div>
+</div>

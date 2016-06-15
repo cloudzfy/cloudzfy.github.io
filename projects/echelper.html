@@ -1,0 +1,53 @@
+<div class="preview-header">
+	<h1 class="preview-title">ECHelper</h1>
+	<span class="project-preview-close"> <i class="fa fa-times"></i> </span> </div>
+<div class="row preview-text">
+	<div class="preview-intro col-sm-9 col-md-9">
+		<blockquote><i>ECHelper is the project three friends and I made for Microsoft Imagine Cup Software Challenge, achieving the high-efficient data communication between patients and doctors, providing first aid to the cardiac patients.</i></blockquote>
+	</div>
+	<div class="preview-image col-sm-3 col-md-3 hidden-xs"> <img src="projects/echelper/imaginecup.png" width="100%" /> </div>
+</div>
+<div class="row preview-text">
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<h4>Inspiration</h4>
+		<p>As we grows older, many of us will have great risks in getting heart attack, but not all the people can realize their disease in time, especially in their early life. "The Sopranos" actor James Gandolfini, 51, died of an apparent heart attack. Sage Stallone, son of actor Sylvester Stallone, died of atherosclerosis, a condition that brought on a heart attack at the age of 36. Besides, because of the short period of disease, many patients cannot go to hospital in time for being examined, which prevent doctors from making diagnoses.</p>
+		<p>However, currently there are few products concerning about the prevention of heart disease, since treatment is the most important topic in this area. We often ignore some subtle changes in our body when working hard and devoting ourselves to scientific research. Think about our relatives and friends, if some of them have lost their lives in heart attack but even unaware it, we cannot help ourselves feeling sorrow and loss.</p>
+	</div>
+	<div class="preview-image col-md-8 col-md-offset-2"> <img src="projects/echelper/goal.png" width="60%" />
+		<p>Theme of CVD Prevention &amp; Control</p>
+	</div>
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<p>The world is entering into the senior age. No matter what the seniors are doing, they deserve our atmost care for not only their immense love for us but also we ourselves are becoming them one day. An efficient way to monitor and treat the disease is extremely necessary for our society.  ECHelper is designed to assist patients by calling the family doctors in an emergency or provide regular monitor for patients.</p>
+		<h4>Market Analysis</h4>
+		<p>According to a report of WHO on September 29th, 2011, cardiovascular disease is the first killer in the world. There are an estimated 17.3 million people died from CVDs in 2008. By 2030, almost 23.6 million people will die from CVDs.</p>
+		<p>Our survey (whose data comes from Sina Weibo and Tencent Weibo) indicates that more than half of doctor-related people register as authentication doctor for better helping people in their leisure time.</p>
+		<h4>Architecture &amp; Technology</h4>
+		<p>The architecture of the solution is shown to the right. Model-View-ViewModel (MVVM) pattern is applied in the design of two clients (patients' &amp; doctors'). All the clients communicate via WCF RIA Service, which is hosted in Windows Azure. In addition, a ECG Sensor can be used for transferring patients‚ monitoring data to a Windows 8 Metro Style Application. A custom Windows Service is introduced for driver implementation in Virtual Serial Port.</p>
+		<p>ECG data will be recorded in byte-stream file and synchronized to Blob in Azure. Shared Access Signature is introduced for improvement of the security of private data.</p>
+		<p>For the purpose of improvement of user experience, we avail ourselves of Access Control Service to integrate identity federation and single sign-on.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="preview-image col-md-8 col-md-offset-2">
+		<div class="flexslider slider-transparent" style="width: 80%">
+			<ul class="slides">
+				<li><img src="projects/echelper/presentation-1.jpg" /></li>
+				<li><img src="projects/echelper/presentation-2.jpg" /></li>
+				<li><img src="projects/echelper/presentation-3.jpg" /></li>
+			</ul>
+		</div>
+		<p>Project Presentation of Our solution</p>
+	</div>
+</div>
+<div class="row preview-text">
+	<div class="col-md-10 col-md-offset-1 col-sm-offset-0">
+		<h4>Scenarios &amp; Vision</h4>
+		<p>In <i>Outpatient Service</i>, patients can obtain help from their family doctors by exchange monitoring data. In <i>Emergency Service</i>, patients can get the first aid from doctors nearby with the help of GPS. In other scenarios, for instance, doctors should register in an official way, history of medical record can only be reviewed by corresponding doctors, etc.</p>
+		<p style="text-align: center; text-indent: 0px;"><img src="projects/echelper/contest.jpg" width="60%" /></p>
+		<p>Our aim is to build a new medical treatment pattern between patients and doctors. It is a new direction to make full use of medical resources, relieving the seriousness of seeing doctors in developing countries, also providing more convenient routes for community medical service in developed countries.</p>
+		<div class="preview-link"> <a href="http://cloudzfy.github.io/echelper" target="_blank">
+			<button type="button" class="preview-btn"><i class="fa fa-github"></i>&nbsp;Github</button>
+			</a> </div>
+	</div>
+	<div class="col-md-12"> <img src="projects/echelper/device.png" width="100%" /> </div>
+</div>
