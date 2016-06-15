@@ -88,6 +88,32 @@
 * Second Prize in the Chinese Mathematical Olympiad in Senior
 * First prize in the National Mathematical Contest for Junior High School Students
 
+### Courses
+
+* **University of Southern California**
+  * Advanced Operating Systems (CSCI 555)
+  * Advanced Analysis of Algorithms (CSCI 670)
+  * Foundations of Artificial Intelligence (CSCI 561)
+  * Robotics (CSCI 545)
+  * Logic and its Applications (CSCI 581)
+  * Brain Theory and Artificial Intelligence (CSCI 564)
+  * Engineering Quantum Mechanics (EE 539)
+  * Randomized Algorithms (CSCI 671)
+  * Machine Learning (CSCI 567)
+  * Introduction to Cognitive Neuroscience (NEUR 440)
+
+* **Beijing University of Posts and Telecommunications**
+  * Computer Network (1500120)
+  * Computer Organization and Architecture (1500100)
+  * Complier Principles and Techniques (1500110)
+  * Principles of Database System (1500090)
+  * Operating System (1500130)
+  * Software Engineering (1500140)
+  * Data Mining (1500200)
+  * Requirement Engineering (1500280)
+  * Object-Oriented Analysis and Design (1500180)
+  * Distributed Computing (1500250)
+
 ### Skills
 
 * C/C++
