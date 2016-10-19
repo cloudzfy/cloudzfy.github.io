@@ -120,6 +120,7 @@
 * C#
 * Java
 * Javascript
+* Python
 * Matlab
 * Latex
 * etc.
